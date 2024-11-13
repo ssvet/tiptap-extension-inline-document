@@ -1,0 +1,35 @@
+{
+  "name": "@ssvet/tiptap-extension-inline-document",
+  "version": "1.0.1",
+  "description": "Inline document top block for Tiptap editor",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@tiptap/core": "^2.1.13",
+    "@vitejs/plugin-react": "^4.3.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.1"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.1.13"
+  },
+  "scripts": {
+    "dev": "vite",
+    "clean": "rm -rf dist",
+    "build": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssvet/tiptap-extension-inline-document.git"
+  },
+  "author": "Sergey Svetlichnyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssvet/tiptap-extension-inline-document/issues"
+  },
+  "homepage": "https://github.com/ssvet/tiptap-extension-inline-document#readme",
+  "files": [
+    "src",
+    "dist"
+  ]
+}
